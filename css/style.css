@@ -1,0 +1,27 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: #ffffff;
+    border-bottom:#F4EEED ;
+    
+}
+.bg-dark{
+    background-color: #ffffff !important;
+}
+.nav-item .nav-link, .navbar-light .navbar-nav{
+    color:black !important;
+    margin:1px;
+    
+}
+.topnav a{
+    border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+    border-bottom: 3px solid #F0C929;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #F0C929;
+  }
