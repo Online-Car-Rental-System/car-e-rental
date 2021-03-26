@@ -27,17 +27,6 @@
   }
   * {box-sizing: border-box;}
 
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -48,29 +37,6 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
 #slider{
     overflow:hidden;
     
@@ -129,25 +95,24 @@ img {vertical-align: middle;}
     position: absolute;
     left: 0;
     width: 100%;
-    height: 99%;
+    height: 100%;
     background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
     z-index: 1;
     overflow:hidden;
     }
 .text h2{
-  color:white;
-  font-size:3vw;
-  display: block;
-
-width: 100%;
-color: #fff;
-left: 0;
-bottom: 0;
-padding: 1em;
-font-weight: 700;
-z-index: 2;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
+    color:white;
+    font-size:3vw;
+    display: block;
+    width: 100%;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    padding: 1em;
+    font-weight: 700;
+    z-index: 2;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 
 }
 .btn1{
@@ -227,10 +192,14 @@ line-height: 1.8;
     text-justify: inter-word;
     margin-top:20px;
     
+    
 }
 .why-us ul {
     list-style: none;
-   
+    line-height: 1.8;
+    background-color: #F0C929;
+    padding:50px;
+    border-radius: 20px;
     
   }
   
