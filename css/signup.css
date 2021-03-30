@@ -27,7 +27,7 @@
   }
 .main{
     background-color: #F0C929;
-    height:700px;
+    height:900px;
     
 }
 .form-info{
@@ -38,12 +38,12 @@
     margin-bottom: 40px;
 }
 #tr{
-    margin-top:70px;
+    margin-top:120px;
     text-align: center;
     margin-left: 30px;
 }
 #un{
-    margin-top: 470px;
+    margin-top: 520px;
     text-align: center;
     margin-left:40px;
 }
@@ -52,29 +52,51 @@
     border-radius: 29px;
     padding:30px;
     margin-top: 60px;
-    width:60%;
-    margin-left: 180px;
+    width:80%;
+    margin-left: 100px;
     margin-bottom: 40px;
+    
    
 }
-input[type=email]{
+#form-header{
+    text-align: center;
+}
+.form-footer{
+    text-align: center;
+    margin-top: 10px;
+}
+.con{
+    display: table;
+    width: 100%;
+}
+label {
+    display: table-cell;
+    width: 1px;
+    white-space: nowrap;
+    width: 120px;
+}
+
+input[type=textarea]{
     background-color: #F4EEED;
     padding: 12px 20px;
     margin: 8px 0;
     border:none;
     border-radius: 20px;
     width:100%;
+    margin-left:10px;
+  
   }
 input:focus{
     outline: none;
 }
-input[type=password]{
+input[type=password],input[type=text],input[type=date],input[type=email],input[type=tel]{
     background-color: #F4EEED;
     padding: 12px 20px;
     margin: 8px 0;
     border:none;
     border-radius: 20px;
     width:100%;
+    margin-left:10px;
   }
 #login-submit{
     background-color: #000000;
@@ -85,12 +107,7 @@ input[type=password]{
     border-radius: 20px;
     width:100%;
 }
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .front-img{
     display: flex;
     flex-direction: column;
@@ -102,7 +119,7 @@ img{
     width: 814px;
     height: 431px;
     left: 0px;
-    top: 120px;
+    top: 190px;
    
 }
 .signup-links{

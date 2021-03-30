@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
     <nav class="topnav navbar navbar-expand-md bg-dark navbar-light">
@@ -43,17 +43,48 @@
             <h2 id="un">Unlock exclusive deals by logging in!</h2>
         </div>
         <div class="col-sm rounded mx-auto d-block float-right form-info">
-            <form class="login content">
+            <form class="login  ">
                 
-                <h2>Login</h2><br><br>
-                <input type="email" placeholder="Enter email"><br>
-                <input type="password" placeholder="Enter Password"><br>
-                <button type="submit" id="login-submit">Login</button><br>
-                <a href="#" class="signup-links">forgot password?</a><br>
-                <p>or</p>
-                <p>Don't have an account?</p>
-                <a href="sign-up.html" class="signup-links">Sign Up</a>
-                
+                <h2 id="form-header">Sign Up</h2><br><br>
+                <div class="content">
+                <div class="con">
+                <label>Name </label>
+                <span><input type="text" placeholder="Enter Name" id="name" required></span>
+                </div>
+                <div class="con">
+                <label>Email Id</label>
+                <input type="email" placeholder="Enter email" id="email" required>
+                </div>
+                <div class="con">
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password" id="password" required>
+                </div>
+                <div class="con">
+                <label>Date of birth</label>
+                <input type="date" placeholder="dd/mm/yyyy" id="dob" required>
+                </div>
+                <div class="con">
+                <label>License details</label>
+                <input type="text" placeholder="License Number" id="ln" required>
+                </div>
+                <div class="con">
+                <label> Expiry date</label>
+                <input type="date" id="ed">
+                </div>
+                <div class="con">
+                <label>Address</label>
+                <input type="textarea" placeholder="Enter address" id="add" required>
+                </div>
+                <div class="con">
+                <label>Mobile number</label>
+                <input type="tel" pattern="[0-9]{10}" placeholder="Enter number" id="mn" required>
+                </div>
+                <button type="submit" id="login-submit">Sign Up</button><br>
+                <div class="form-footer">
+                <p>Already Have an account?</p>
+                <a href="login.html" class="signup-links">Log in</a>
+               </div>
+            </div>
             </form>
         </div>
     </div>
