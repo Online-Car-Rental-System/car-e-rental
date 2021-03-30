@@ -35,18 +35,26 @@
     
   }
   #search{
-      border-radius:20px;
+    border-radius: 20px;
       padding:12px;
       border:none;
       width:100%;
       
   }
+  /*.field{
+    border-radius:20px;
+    padding:12px;
+    border:none;
+    width:100%;
+  }*/
+ 
   .search{
       width:70%;
       align-items:center;
       justify-content:Center;
       display:Flex;
       flex-direction: column;
+      
   }
   .b1{
       display:flex;
