@@ -1,0 +1,210 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: white;
+    border-bottom:white ;
+    color: black;
+    
+}
+.bg-light{
+    background-color: white !important;
+}
+li a{
+    color: rgb(12, 11, 11);
+    margin:1px;
+    right: 0%;
+    
+}
+
+.topnav a{
+    border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+    border-bottom: 3px solid #F0C929;
+    color: antiquewhite;
+  }
+.nav-item.active{
+    border-bottom: 3px solid black !important;
+    color: #F0C929 !important;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #F0C929;
+  }
+.panel-footer{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    padding: 50px;
+    font-size:medium;
+}
+#search{
+    border-radius:20px;
+    padding:12px;
+    border:none;
+    width:100%;
+    
+}
+.search{
+    width:70%;
+    align-items:center;
+    justify-content:Center;
+    display:Flex;
+    flex-direction: column;
+}
+.b1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:380px;
+    background-color: #F0C929;
+}
+.b1 {
+  
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1.3s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+#heading{
+    padding:20px;
+}
+#availability{
+  padding:5px;
+  outline:none;
+  
+}
+input:focus{
+  outline: none;
+}
+.btn.btn1{
+    margin-top:20px;
+    background-color:black;
+    border: none;
+    color: #F0C929;
+    padding: 12px 16px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.btn.btn1:hover{
+    color: white;
+}
+.btn.btn-danger.btn-block {
+    margin-top:20px;
+    background-color:black;
+    border: none;
+    color: #F0C929;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.btn.btn-danger.btn-block:hover{
+    color: white;
+}
+small.justify-content-center {
+    font-size: 9px;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+@media screen and (max-width:600px) {
+    .col-sm-4 {
+        margin-bottom: 50px
+    }
+}
+.btn-danger:focus {
+    box-shadow: none
+}
+.card {
+    width: 250px;
+    border-radius: 10px
+}
+
+.card-img-top {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px
+}
+
+span.text-muted {
+    font-size: 12px
+}
+
+small.text-muted {
+    font-size: 8px
+}
+h5.mb-0 {
+    font-size: 1rem
+}
+
+small.ghj {
+    font-size: 9px
+}
+
+.mid {
+    background: #ECEDF1
+}
+
+h6.ml-1 {
+    font-size: 13px
+}
+
+small.key {
+    text-decoration: underline;
+    font-size: 9px;
+    cursor: pointer
+}
+.btn {
+    background-color:black;
+    border: none;
+    color: #F0C929;
+    padding: 12px 16px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .btn:hover{
+    color: white;
+}
+div.container-process{
+    background-color: #F0C929;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  div {
+    
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1.3s;
+    animation-name: animatebottom;
+    animation-duration: 1.3s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+    

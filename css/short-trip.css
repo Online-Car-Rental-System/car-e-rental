@@ -26,7 +26,23 @@
   .topnav a.active {
     border-bottom: 3px solid #F0C929;
   }
- 
+  .b1 {
+    
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1.3s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
   .btn{
     border-radius: 20px;
     color:#F0C929 !important;
