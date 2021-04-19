@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71" height="71" viewBox="0 0 71 71">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{fill:#d7f3d8}.cls-3{stroke:#1caba2;stroke-linecap:round;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="ic_web_x_6" transform="translate(.005 .438)">
+        <path id="Rectangle_3526" d="M0 0h71v71H0z" class="cls-1" data-name="Rectangle 3526" transform="translate(-.005 -.438)"/>
+        <g id="Group_2417" data-name="Group 2417" transform="translate(8.08 1.221)">
+            <path id="Rectangle_3517" d="M0 0h24.057v31.132H10a10 10 0 0 1-10-10V0z" class="cls-2" data-name="Rectangle 3517" transform="translate(29.682 .17)"/>
+            <g id="Group_2397" data-name="Group 2397">
+                <ellipse id="Ellipse_141" cx="23.082" cy="23.082" class="cls-3" data-name="Ellipse 141" rx="23.082" ry="23.082"/>
+                <path id="Line_100" d="M0 0v2.144" class="cls-3" data-name="Line 100" transform="translate(23.082 4.325)"/>
+                <path id="Line_101" d="M0 0l1.072 1.856" class="cls-3" data-name="Line 101" transform="translate(13.703 6.838)"/>
+                <path id="Line_102" d="M0 0l1.856 1.072" class="cls-3" data-name="Line 102" transform="translate(6.838 13.703)"/>
+                <path id="Line_103" d="M0 0h2.144" class="cls-3" data-name="Line 103" transform="translate(4.325 23.082)"/>
+                <path id="Line_104" d="M0 1.072L1.856 0" class="cls-3" data-name="Line 104" transform="translate(6.838 31.389)"/>
+                <path id="Line_105" d="M0 1.856L1.072 0" class="cls-3" data-name="Line 105" transform="translate(13.703 37.47)"/>
+                <path id="Line_106" d="M0 2.144V0" class="cls-3" data-name="Line 106" transform="translate(23.082 39.696)"/>
+                <path id="Line_107" d="M1.072 1.856L0 0" class="cls-3" data-name="Line 107" transform="translate(31.389 37.47)"/>
+                <path id="Line_108" d="M1.856 1.072L0 0" class="cls-3" data-name="Line 108" transform="translate(37.47 31.389)"/>
+                <path id="Line_109" d="M2.144 0H0" class="cls-3" data-name="Line 109" transform="translate(39.696 23.082)"/>
+                <path id="Line_110" d="M1.856 0L0 1.072" class="cls-3" data-name="Line 110" transform="translate(37.47 13.703)"/>
+                <path id="Line_111" d="M1.072 0L0 1.856" class="cls-3" data-name="Line 111" transform="translate(31.389 6.838)"/>
+                <path id="Path_2343" d="M50 34.035V46l6.649 4.29" class="cls-3" data-name="Path 2343" transform="translate(-26.918 -22.916)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: white;
+    border-bottom:white ;
+    color: black;
+    
+}
+.bg-light{
+    background-color: white !important;
+}
+li a{
+    color: rgb(12, 11, 11);
+    margin:1px;
+    right: 0%;
+    
+}
+
+.topnav a{
+    border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+    border-bottom: 3px solid #F0C929;
+    color: antiquewhite;
+  }
+.nav-item.active{
+    border-bottom: 3px solid black !important;
+    color: #F0C929 !important;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #F0C929;
+  }
+.panel-footer{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    padding: 50px;
+    font-size:medium;
+}
