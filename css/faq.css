@@ -1,0 +1,183 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: #ffffff;
+    border-bottom:#F4EEED ;
+    
+}
+.bg-dark{
+    background-color: #ffffff !important;
+}
+.nav-item .nav-link, .navbar-light .navbar-nav{
+    color:black !important;
+    margin:1px;
+    
+}
+.dropbtn {
+    background-color: #F0C929;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd; border-bottom: 3px solid transparent !important;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #F0C929;}
+.topnav a{
+    border-bottom: 3px solid transparent;
+}
+.topnav a:hover {
+    border-bottom: 3px solid #F0C929;
+  }
+  
+.topnav a.active {
+    border-bottom: 3px solid #F0C929;
+  }
+  
+.container1{
+    margin-top:50px;
+    width:70%;
+}
+.card .card-header{
+border-radius: 20px;
+margin:10px;
+border:none;
+
+}
+.card-body{
+    margin:20px;
+}
+textarea{
+    background-color: #F4EEED;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 20px;
+    width:70%;
+    height: 150px;
+  }
+input[type=email], input[type=text]{
+    background-color: #F4EEED;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 20px;
+    width:70%;
+  }
+input:focus, textarea:focus{
+    outline: none;
+}
+#contact-us{
+    width:100%;
+    padding:20px;
+    background-color: #F0C929;
+    
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+img{
+    margin-top: 85px;
+}
+.yellow{
+background-color: #F0C929;
+}
+.grey{
+ background-color: #F4EEED;
+}
+.btn1{
+    border-radius: 20px;
+    color:#F0C929 !important;
+    background-color: black;
+    padding: 15px 32px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+.wrapper{
+    background-color: #F0C929;
+    padding:90px;
+    margin-top:60px;
+    height:280px;
+}
+.accordion {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1.3s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+.btn-link{
+    color: black;
+}
+.btn-link:hover{
+text-decoration: none;
+}
+.btn-link:focus{
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    text-align:center;
+    padding-top:15px;  
+    
+}
+#foo1 {
+    color:white;
+}
+#foo2{
+   color: #F0C929 ;
+}
+html,body{
+    width:100%;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
